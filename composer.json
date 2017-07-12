@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-finnish",
+    "name": "Nicceboy/flarum-ext-finnish",
     "type": "flarum-extension",
     "description": "Finnish language pack.",
     "keywords": ["locale"],
