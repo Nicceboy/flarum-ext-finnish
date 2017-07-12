@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Lopeta seuraaminen
+      unignore_button: Unignore
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} kirjoitti viestin."
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: Automaattisesti seuraa keskusteluja, joihin olen vastannut
+      notify_new_post_label: Joku kirjoittaa seuraamaani keskusteluun
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Saa ilmoitus kaikista vastauksista.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Ei koskaan ilmoituksia. Piilota keskustelulistasta.
+      not_following_button: Ei seurannassa
+      not_following_text: "Saa ilmoitus vain, kun @mainittu."
+      notify_alert_tooltip: Saa foorumilmoitus uusista viesteistä.
+      notify_email_tooltip: Saa sähköpostia uusista viesteistä.
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: Seuraa
+    following: Seurannassa
+    ignoring: Huomioimatta
