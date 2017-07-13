@@ -17,7 +17,7 @@ flarum-suspend:
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Jäädytä lopulisesti
-      limited_time_label: Jäädytä rajoitetun ajan.
+      limited_time_label: Jäädytä rajoitetuksi ajaksi.
       limited_time_days_text: " päivää"
       not_suspended_label: Ei jäädytetty
       status_heading: Käyttäjän tila

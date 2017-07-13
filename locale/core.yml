@@ -9,16 +9,16 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "Jos olet kehittäjä, voit luoda omia laajennuksia."
+      install_text: "Mahdollisia laajennuksia löytyy osoitteesta Flarum.org"
+      temporary_text: "Joskus tulevaisuudessa, tästä voi lisätä laajennuksen suoraan!"
       title: Lisää laajennus
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
+      colored_header_label: Väritetty ylätunniste
       colors_heading: Värit
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colors_text: "Valitse kaksi väriä, joilla voit mukauttaa foorumia. Ensimmäinen väri on korostamiseen, ja toinen taustan tyylittämiseen."
       custom_header_heading: Mukautettu ylätunniste
       custom_header_text: "Lisää HTML:ää, näytettynä sivuston yläosassa."
       custom_styles_heading: Mukautetut tyylit
@@ -28,9 +28,9 @@ core:
       edit_header_button: Muokaa omaa ylätunnistetta
       enter_hex_message: Anna heksadesimaalinen värikoodi
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Lataa kuva, josta tulee foorumin favicon
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Lataa kuva, joka näytetään foorumin otsikon sijaan
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -38,32 +38,32 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Oletuskieli
       forum_description_heading: Foorumin kuvaus
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
+      forum_description_text: Kirjoita lyhyt kuvaus, joka tiivistää foorumin tarkoituksen. Tämä lisätään myös meta-tagiin, ja näkyy näin hakukoneiden hakutuloksissa.
       forum_title_heading: Foorumin otsikko
       home_page_heading: Etusivu
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      home_page_text: "Valitse näytettävä sivusto foorumille tullessa. Mukautettu arvo johtaa foorumin juureen."
       saved_message: Muutokset tallennettiin.
       show_language_selector_label: Näytä kielen valinta
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: Tervetuloa - banneri
+      welcome_banner_text: Muokkaa bannerin tekstiä, joka ilmestyy "kaikkien keskustelujen" yläpuolella. Tällä voit tervehtiä foorumille tulevia käyttäjiä.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+      beta_warning_tpext: "Tämä foorumi perustuu vielä betavaiheessa olevaan ohjelmistoon, ominaisuudet voivat olla puutteellisia."
       contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      welcome_text: "Tervetuloa käyttämättän Sinettajärven keskustelupalstaa"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Muokkaa foorumin ulkoasua lisäämällä tänne omaa LESS/CSS koodia, jotka lisätään foorumin omien tyylien päälle."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: Muokkaa custom CSS:ää
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -80,14 +80,14 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: "Lisää HTML:ää, näytettäväksi sivuston yläosassa."
       submit_button: => core.ref.save_changes
-      title: Edit Custom Header
+      title: Muokkaa custom headeria
 
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP Tili
-      addresses_heading: Addresses
+      addresses_heading: Osoitteet
       driver_label: Driver
       encryption_label: Encryption
       from_label: Lähettäjä
@@ -118,7 +118,7 @@ core:
     nav:
       appearance_button: Ulkoasu
       appearance_text: "Muokkaa foorumisi värejä, logoja, ja muita muuttujia."
-      basics_button: Perusasiat
+      basics_button: Yleiset
       basics_text: "Aseta foorumin otsikko, kieli, ja muut perusasetukset."
       dashboard_button: Dashboard
       dashboard_text: Foorumisi yhdellä silmäyksellä.
@@ -283,11 +283,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Viimeisin
-      newest_button: Uusin
-      oldest_button: Vanhin
+      latest_button: Viimeisin viesti
+      newest_button: Uusin ketju
+      oldest_button: Vanhin ketju
       relevance_button: Aihepiiri
-      top_button: Top
+      top_button: Keskustelluin
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -326,12 +326,12 @@ core:
       now_link: Nyt
       original_post_link: Alkuperäinen viesti
       unread_text: "{count} lukematon"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      viewing_text: "{index} / {count} viesti|{index} / {count} viestistä"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} vaihtoi otsikon {new}."
+      discussion_renamed_old_tooltip: 'Vanha otsikko oli: "{old}"'
+      discussion_renamed_text: "{username} vaihtoi otsikoksi: {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} myöhemmin"
@@ -343,9 +343,9 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Etsi kaikista keskusteluista: "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: Käyttäjät
 
     # These translations are used in the Settings page.
     settings:
@@ -355,8 +355,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Joku uudelleennimeää keskustelun, jonka aloitin.
-      privacy_disclose_online_label: Salli muiden nähdä, kun olen online.
+      notify_discussion_renamed_label: Joku uudelleennimeää aloittamani keskustelun.
+      privacy_disclose_online_label: Salli muiden nähdä paikallaoloni.
       privacy_heading: Yksityisyys
       title: => core.ref.settings
 
@@ -376,7 +376,7 @@ core:
       avatar_remove_button: Poista
       avatar_upload_button: Lataa
       avatar_upload_tooltip: Lataa uusi avatar
-      bio_placeholder: Kerro jotain itsestäsi
+      bio_placeholder: Kerro tänne jotain itsestäsi
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}"
       joined_date_text: "Littyi {ago}"
@@ -414,7 +414,7 @@ core:
       generic_message: "Hups! Jokin meni vikaan. Ole hyvä, ja päivitä sivusto."
       not_found_message: Vaadittua resurssia ei löytynyt.
       permission_denied_message: Sinulla ei ole oikeuksia tehdä tätä.
-      rate_limit_exceeded_message: Toimit liian nopeasti. Yritä muutaman sekunnin päästä uudelleen..
+      rate_limit_exceeded_message: Toimit liian nopeasti. Yritä muutaman sekunnin päästä uudelleen...
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:

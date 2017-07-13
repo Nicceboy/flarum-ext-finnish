@@ -16,7 +16,7 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: Lopeta seuraaminen
-      unignore_button: Unignore
+      unignore_button: Lopeta huomiotta jättäminen
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -51,4 +51,4 @@ flarum-subscriptions:
   ref:
     follow: Seuraa
     following: Seurannassa
-    ignoring: Huomioimatta
+    ignoring: Huomiotta jätetty
